@@ -6,6 +6,10 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
+  image: {
+    domains: ['https://cdn.dummyjson.com']
+  },
+
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
